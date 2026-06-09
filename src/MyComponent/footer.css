@@ -1,6 +1,6 @@
 .footer{
-    position:absolute;
-    top:100vh;
+    position:relative;
+    top:1vh;
     width:100%;
     background-color: black;
     color: white;

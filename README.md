@@ -7,14 +7,11 @@ Add, organize, and track your tasks with a clean interface while ensuring your d
 ---
 
 ## 📸 Preview
-
 <p align="center">
-  <img src="./image1.png" width="75%" />
+  <img src="./src/MyComponent/image1.jpeg" width="90%">
+  <br><br>
+  <img src="./src/MyComponent/image2.jpeg" width="90%">
 </p>
-<p align="center">
-  <img src="./image2.png" width="75%" />
-</p>
-
 ---
 
 ## 🚀 Features

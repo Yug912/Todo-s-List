@@ -14,7 +14,7 @@ const AddTodo = (props) => {
   return (
     <div className="container my-3">
         <h3>Add a Todo</h3>
-    <form onSubmit={submit} placeholder="">
+    <form onSubmit={submit}>
 
   <div className="mb-3">
     <label for="title" className="form-label">Todo Title</label>

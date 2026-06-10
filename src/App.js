@@ -4,7 +4,13 @@ import Footer from './MyComponent/Footer';
 import Header from './MyComponent/header';
 import AddTodo from './MyComponent/AddTodo';
 import Todos from './MyComponent/Todos';
+import About from './MyComponent/About';
 import {useState,useEffect} from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
 function App() {
   let initTodo;
   if(localStorage.getItem("todos")===null){
@@ -42,10 +48,27 @@ function App() {
   }, [todos]);
   return (
     <>
+    <Router>
        <Header Title="My Todo List" searchbar={true} />
-       <AddTodo addtodo={addtodo} />
-       <Todos todo={todos} onDelete={onDelete} />
+       <Routes>
+  <Route
+    exact path="/"
+    element={
+      <>
+        <AddTodo addtodo={addtodo} />
+        <Todos todo={todos} onDelete={onDelete} />
+      </>
+    }
+  />
+
+  <Route
+    exact path="/about"
+    element={<About />}
+  />
+</Routes>
+      
        <Footer />
+    </Router>
        
     </>
 

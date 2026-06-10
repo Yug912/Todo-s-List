@@ -1,0 +1,23 @@
+.todo-card{
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    background: white;
+    transition: 0.3s;
+}
+
+.todo-card:hover{
+    transform: translateY(-3px);
+}
+
+.todo-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #212529;
+}
+
+.todo-desc{
+    color: #6c757d;
+}

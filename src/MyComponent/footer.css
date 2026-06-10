@@ -1,9 +1,9 @@
 .footer{
-    position:relative;
-    top:1vh;
     width:100%;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 3px 0;
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:18px;
+    font-weight:600;
+    box-shadow:0 -4px 10px rgba(0,0,0,0.2);
 }

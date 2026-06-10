@@ -1,11 +1,22 @@
-import React from 'react'
+import React from 'react';
 
 export default function TodoItems(props) {
   return (
     <>
-    <h1>{props.todo.title}</h1>
-    <p>{props.todo.desc}</p>
-    <button className="btn btn-sm btn-danger" onClick={() => props.onDelete(props.todo)}>Delete</button>
+      <h3 className="text-primary fw-bold">
+        {props.todo.title}
+      </h3>
+
+      <p className="text-muted fs-5">
+        {props.todo.desc}
+      </p>
+
+      <button
+        className="btn btn-danger rounded-pill px-4"
+        onClick={() => props.onDelete(props.todo)}
+      >
+        Delete
+      </button>
     </>
-  )
+  );
 }

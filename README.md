@@ -9,7 +9,10 @@ Add, organize, and track your tasks with a clean interface while ensuring your d
 ## 📸 Preview
 
 <p align="center">
-  <img src="./preview.png" width="75%" />
+  <img src="./image1.png" width="75%" />
+</p>
+<p align="center">
+  <img src="./image2.png" width="75%" />
 </p>
 
 ---
